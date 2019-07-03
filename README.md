@@ -11,7 +11,7 @@ You can find a very nice implementation of GradCam [here](https://github.com/Fra
 # About EfficientNet
 
 
-A naive way to increase the performance of neural networks is to increase make CNN deeper. A great example, would be resnet ehich has several variations ranging from 18 to 202. Making the CNN deeper or wider may increase the performance but it comes at great computational cost. So we need some way to balance our ever increasing quest for performance with compuatational cost. In the paper, the authors propose a new model scaling method that uses a simple compound coefficient to scale up CNNs in a more structured manner. This method helps them to decide when to increase the depth or width of the network.
+A naive way to increase the performance of neural networks is to increase make CNN deeper. A great example, would be resnet which has several variations ranging from 18 to 202. Making the CNN deeper or wider may increase the performance but it comes at great computational cost. So we need some way to balance our ever increasing quest for performance with compuatational cost. In the paper, the authors propose a new model scaling method that uses a simple compound coefficient to scale up CNNs in a more structured manner. This method helps them to decide when to increase the depth or width of the network.
 
 The authors wanted to optimize for accuracy and efficieny. So, they performed a neural architecture search. This search yielded th Efficient-B0 archictecture which looks pretty simple and straightforward to implement.
 
